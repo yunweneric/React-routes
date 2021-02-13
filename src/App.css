@@ -3,7 +3,7 @@
   height: 100vh;
 }
 nav{
-  background: rgb(8, 94, 207);
+  background: #1A2634;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,10 +26,16 @@ nav li{
 }
 a{
   text-decoration: none;
-  color: #fff;
+  color: #0e151d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #fff;
+  transition: all ease-in-out 0.2s;
+
 }
 nav a:hover{
-  color: rgb(0, 0, 0);
+  background: rgb(166, 175, 255);
+  transition: all ease-in-out 0.2s;
 }
 footer{
   color: #fff;
@@ -39,7 +45,7 @@ footer{
   width: 100%;
   padding: 30px;
   text-align: center;
-  background: rgb(19, 19, 19);
+  background: #0e151d;
 }
 .component{
   width: 80%;
@@ -47,4 +53,11 @@ footer{
 }
 .component p{
   line-height: 28px;
+}
+
+ nav .active{
+  background: #5855F3;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
 }
